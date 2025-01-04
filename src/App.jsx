@@ -1,10 +1,14 @@
 import { useState } from "react";
 
-function App() {
-  const [count, setCount] = useState(0);
+const App = () => {
+  const [Numbers, setNumbers] = useState();
 
-  return(
-
+  return (
+    <div className="container text-center">
+      <header className="my-3">
+        <h1>Tombola</h1>
+      </header>
+    </div>
   );
 };
 
