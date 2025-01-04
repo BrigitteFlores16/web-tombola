@@ -13,3 +13,30 @@ h1 {
   font-weight: bold;
   font-size: 70px;
 }
+.board {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0;
+  max-width: 500px;
+}
+
+.number {
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.number.red {
+  color: red;
+}
+
+.last-number div {
+  font-size: 24px;
+  font-weight: bold;
+  width: fit-content;
+}
